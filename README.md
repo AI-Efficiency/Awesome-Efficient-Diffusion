@@ -44,6 +44,9 @@ This repo collects efficient approaches for large language models (LLMs) and dif
 
 ### 2024
 
+- **[arXiv'26]** OneComp: One-Line Revolution for Generative AI Model Compression. *Ichikawa et al.* [[Paper](https://arxiv.org/abs/2603.28845)] [[Code](https://github.com/FujitsuResearch/OneCompression)]
+- **[NeurIPS'25]** Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization. *Arai & Ichikawa.* [[Paper](https://openreview.net/forum?id=a3l3K9khbL)] [[Code](https://github.com/FujitsuResearch/OneCompression)]
+
 **Quantization**
 
 - [[arXiv](https://arxiv.org/abs/2404.14047)] How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study [[code](https://github.com/Macaronlin/LLaMA3-Quantization)]![GitHub Repo stars](https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization) [[HuggingFace](https://huggingface.co/LLMQ)]
