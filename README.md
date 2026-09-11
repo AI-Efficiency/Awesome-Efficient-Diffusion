@@ -1,6 +1,6 @@
 # Awesome Efficient Diffusion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A collection of papers and code on efficient diffusion and flow matching models for image and video generation. Topics include fast sampling, distillation, caching, efficient attention, quantization, model compression, training, and deployment. Contributions are welcome.
+A collection of papers and code on efficient diffusion and flow matching models for image and video generation, world models, and diffusion language models. Topics include fast sampling, distillation, feature and KV caching, parallel decoding, efficient attention, quantization, pruning, model compression, training, and deployment. Contributions are welcome.
 
 ## Quick Navigation
 
@@ -58,7 +58,7 @@ Published papers are listed by venue year; preprints by first release year.
 - [[ICML](https://arxiv.org/abs/2605.30325)] Veda: Scalable Video Diffusion via Distilled Sparse Attention
 - [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/37841)] TR-DQ: Time-Rotation Diffusion Quantization
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Li_DeltaQuant_4-bit_Video_Diffusion_Models_with_Spatiotemporal_Delta_Smoothing_CVPR_2026_paper.html)] DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing
-- [[CVPR](https://arxiv.org/abs/2507.14811)] SegQuant: A Semantics-Aware and Generalizable Quantization Framework for Diffusion Models [[code](https://github.com/OptiSys-ZJU/segquant)] [![GitHub stars](https://img.shields.io/github/stars/OptiSys-ZJU/segquant?style=social)](https://github.com/OptiSys-ZJU/segquant)
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SegQuant_A_Semantics-Aware_and_Generalizable_Quantization_Framework_for_Diffusion_Models_CVPR_2026_paper.html)] SegQuant: A Semantics-Aware and Generalizable Quantization Framework for Diffusion Models [[code](https://github.com/OptiSys-ZJU/segquant)] [![GitHub stars](https://img.shields.io/github/stars/OptiSys-ZJU/segquant?style=social)](https://github.com/OptiSys-ZJU/segquant)
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/58e5f95c8c4789af382ab48b4cbc6d9d-Abstract-Conference.html)] Beyond Uniformity: Sample and Frequency Meta Weighting for Post-Training Quantization of Diffusion Models
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3bd28dd5cc4e15f9e019da13cc0c4844-Abstract-Conference.html)] DVD-Quant: Data-free Video Diffusion Transformers Quantization
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/dd3065a00d9b93e3d4d17faa907100bb-Abstract-Conference.html)] Gradient-Aligned Calibration for Post-Training Quantization of Diffusion Models
@@ -67,6 +67,31 @@ Published papers are listed by venue year; preprints by first release year.
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/41b93c59da0d0f835907fd661d419db2-Abstract-Conference.html)] SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer [[code](https://github.com/NVlabs/Sana)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Sana?style=social)](https://github.com/NVlabs/Sana)
 - [[ICML](https://arxiv.org/abs/2512.05081)] Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression
 - [[ICML](https://arxiv.org/abs/2602.01801)] FAST-AR: Fast Autoregressive Video Diffusion and World Models with Temporal Cache Compression and Sparse Attention
+- [[ICML](https://arxiv.org/abs/2603.06331)] WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching [[code](https://github.com/FofGofx/WorldCache)] [![GitHub stars](https://img.shields.io/github/stars/FofGofx/WorldCache?style=social)](https://github.com/FofGofx/WorldCache)
+- [[ECCV](https://arxiv.org/abs/2603.22286)] WorldCache: Content-Aware Caching for Accelerated Video World Models [[code](https://github.com/umair1221/WorldCache)] [![GitHub stars](https://img.shields.io/github/stars/umair1221/WorldCache?style=social)](https://github.com/umair1221/WorldCache)
+- [[ICML](https://arxiv.org/abs/2602.02958)] Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization [[code](https://github.com/svg-project/Quant-VideoGen)] [![GitHub stars](https://img.shields.io/github/stars/svg-project/Quant-VideoGen?style=social)](https://github.com/svg-project/Quant-VideoGen)
+- [[TPAMI](https://doi.org/10.1109/TPAMI.2026.3700583)] MPQ-DMv2: Flexible Residual Mixed Precision Quantization for Low-Bit Diffusion Models With Temporal Distillation
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/papers/Zeng_Sampling-Aware_Quantization_for_Diffusion_Models_CVPR_2026_paper.pdf)] Sampling-Aware Quantization for Diffusion Models
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Huang_LinVideo_A_Post-Training_Framework_towards_On_Attention_in_Efficient_Video_CVPR_2026_paper.html)] LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/805da7ef883245cb35e012cc179a5f6f-Abstract-Conference.html)] Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models [[code](https://github.com/ZTA2785/Quant-dLLM)] [![GitHub stars](https://img.shields.io/github/stars/ZTA2785/Quant-dLLM?style=social)](https://github.com/ZTA2785/Quant-dLLM)
+- [[ICML](https://icml.cc/virtual/2026/poster/62533)] DLLMQuant: A Post-Training Quantization Framework Tailored for Diffusion-Based Large Language Models
+- [[ICLR](https://arxiv.org/abs/2505.22618)] Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding [[code](https://github.com/NVlabs/Fast-dLLM)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Fast-dLLM?style=social)](https://github.com/NVlabs/Fast-dLLM)
+- [[ICLR](https://arxiv.org/abs/2509.26328)] Fast-dLLM v2: Efficient Block-Diffusion LLM [[code](https://github.com/NVlabs/Fast-dLLM)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Fast-dLLM?style=social)](https://github.com/NVlabs/Fast-dLLM)
+- [[ICML](https://arxiv.org/abs/2506.06295)] dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching [[code](https://github.com/maomaocun/dLLM-cache)] [![GitHub stars](https://img.shields.io/github/stars/maomaocun/dLLM-cache?style=social)](https://github.com/maomaocun/dLLM-cache)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/de4f2e3b8263aff39f0dd7571a8dc4b1-Abstract-Conference.html)] d²Cache: Accelerating Diffusion-Based LLMs via Dual Adaptive Caching [[code](https://github.com/Kamichanw/d2Cache)] [![GitHub stars](https://img.shields.io/github/stars/Kamichanw/d2Cache?style=social)](https://github.com/Kamichanw/d2Cache)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f930c6e1292a1160189a0734f22b465b-Abstract-Conference.html)] FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion [[code](https://github.com/ZhanqiuHu/flash-dlm-experimental)] [![GitHub stars](https://img.shields.io/github/stars/ZhanqiuHu/flash-dlm-experimental?style=social)](https://github.com/ZhanqiuHu/flash-dlm-experimental)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/3afaa2102fb8ea44cbadc13e45bba718-Abstract-Conference.html)] Attention Is All You Need for KV Cache in Diffusion LLMs [[code](https://github.com/VILA-Lab/Elastic-Cache)] [![GitHub stars](https://img.shields.io/github/stars/VILA-Lab/Elastic-Cache?style=social)](https://github.com/VILA-Lab/Elastic-Cache)
+- [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40586)] Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/04bb76a98d9f32226b3beba7bd26a51f-Abstract-Conference.html)] Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing [[code](https://github.com/zhijie-group/Discrete-Diffusion-Forcing)] [![GitHub stars](https://img.shields.io/github/stars/zhijie-group/Discrete-Diffusion-Forcing?style=social)](https://github.com/zhijie-group/Discrete-Diffusion-Forcing)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/323880c576dc7cdcb1fcc7432447a3df-Abstract-Conference.html)] Ultra-Fast Language Generation via Discrete Diffusion Divergence Instruct
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/57250222014c35949476f3f272c322d2-Abstract-Conference.html)] dParallel: Learnable Parallel Decoding for dLLMs
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/08487598819cba9feca884ef0d442950-Abstract-Conference.html)] Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/5dfd5e960d33adcf3671cf2d06c718ba-Abstract-Conference.html)] DPad: Efficient Diffusion Language Models with Suffix Dropout
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a886eb099223bcbdbd65bc52c852fd61-Abstract-Conference.html)] Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/daadbff4d4ea884ca3d9d389a1dfc61c-Abstract-Conference.html)] Diffusion Language Model Knows the Answer Before It Decodes
+- [[MLSys](https://proceedings.mlsys.org/paper_files/paper/2026/hash/1367d856028f65a9555b0274db09e608-Abstract-Conference.html)] TiDAR: Think in Diffusion, Talk in Autoregression
+- [[ICML](https://arxiv.org/abs/2602.06036)] DFlash: Block Diffusion for Flash Speculative Decoding [[code](https://github.com/z-lab/dflash)] [![GitHub stars](https://img.shields.io/github/stars/z-lab/dflash?style=social)](https://github.com/z-lab/dflash)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9adf58ca1ed848228377d61692d66541-Abstract-Conference.html)] The Diffusion Duality, Chapter II: Ψ-Samplers and Efficient Curriculum [[code](https://github.com/s-sahoo/duo)] [![GitHub stars](https://img.shields.io/github/stars/s-sahoo/duo?style=social)](https://github.com/s-sahoo/duo)
 
 ### 2025
 
@@ -128,6 +153,17 @@ Published papers are listed by venue year; preprints by first release year.
 - [[ICML](https://proceedings.mlr.press/v267/xie25b.html)] SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer [[code](https://github.com/NVlabs/Sana)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/Sana?style=social)](https://github.com/NVlabs/Sana)
 - [[NeurIPS](https://proceedings.nips.cc/paper_files/paper/2025/hash/8da04a60948be713dc766f0c7e3a5b1f-Abstract-Conference.html)] PipeFusion: Patch-level Pipeline Parallelism for Diffusion Transformers Inference [[code](https://github.com/xdit-project/xDiT)] [![GitHub stars](https://img.shields.io/github/stars/xdit-project/xDiT?style=social)](https://github.com/xdit-project/xDiT)
 - [[arXiv](https://arxiv.org/abs/2512.16093)] TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times [[code](https://github.com/thu-ml/TurboDiffusion)] [![GitHub stars](https://img.shields.io/github/stars/thu-ml/TurboDiffusion?style=social)](https://github.com/thu-ml/TurboDiffusion)
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Q-DiT_Accurate_Post-Training_Quantization_for_Diffusion_Transformers_CVPR_2025_paper.html)] Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers [[code](https://github.com/Juanerx/Q-DiT)] [![GitHub stars](https://img.shields.io/github/stars/Juanerx/Q-DiT?style=social)](https://github.com/Juanerx/Q-DiT)
+- [[ICCV](https://openaccess.thecvf.com/content/ICCV2025/html/Lee_Text_Embedding_Knows_How_to_Quantize_Text-Guided_Diffusion_Models_ICCV_2025_paper.html)] Text Embedding Knows How to Quantize Text-Guided Diffusion Models
+- [[ICCV](https://openaccess.thecvf.com/content/ICCV2025/html/Shao_Memory-Efficient_Generative_Models_via_Product_Quantization_ICCV_2025_paper.html)] Memory-Efficient Generative Models via Product Quantization [[code](https://github.com/Jie-Shao-NJU/DPQ)] [![GitHub stars](https://img.shields.io/github/stars/Jie-Shao-NJU/DPQ?style=social)](https://github.com/Jie-Shao-NJU/DPQ)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2025/hash/518046d86bbc41a0707727c38301ad8e-Abstract-Conference.html)] FasterCache: Training-Free Video Diffusion Model Acceleration with High Quality [[code](https://github.com/Vchitect/FasterCache)] [![GitHub stars](https://img.shields.io/github/stars/Vchitect/FasterCache?style=social)](https://github.com/Vchitect/FasterCache)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2025/hash/a44a70acd5d0abc1a252ada9719dd06d-Abstract-Conference.html)] Dynamic Diffusion Transformer [[code](https://github.com/NUS-HPC-AI-Lab/Dynamic-Diffusion-Transformer)] [![GitHub stars](https://img.shields.io/github/stars/NUS-HPC-AI-Lab/Dynamic-Diffusion-Transformer?style=social)](https://github.com/NUS-HPC-AI-Lab/Dynamic-Diffusion-Transformer)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2025/hash/7ede97c3e082c6df10a8d6103a2eebd2-Abstract-Conference.html)] Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models [[code](https://github.com/kuleshov-group/bd3lms)] [![GitHub stars](https://img.shields.io/github/stars/kuleshov-group/bd3lms?style=social)](https://github.com/kuleshov-group/bd3lms)
+- [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/975affbe7b5f3b55fba62247b6877b1c-Abstract-Conference.html)] LaViDa: A Large Diffusion Language Model for Multimodal Understanding [[code](https://github.com/jacklishufan/LaViDa)] [![GitHub stars](https://img.shields.io/github/stars/jacklishufan/LaViDa?style=social)](https://github.com/jacklishufan/LaViDa)
+- [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/172e31282df16359324717fcfbdbead3-Abstract-Conference.html)] Encoder-Decoder Diffusion Language Models for Efficient Training and Inference [[code](https://github.com/kuleshov-group/e2d2)] [![GitHub stars](https://img.shields.io/github/stars/kuleshov-group/e2d2?style=social)](https://github.com/kuleshov-group/e2d2)
+- [[ICML](https://proceedings.mlr.press/v267/sahoo25a.html)] The Diffusion Duality [[code](https://github.com/s-sahoo/duo)] [![GitHub stars](https://img.shields.io/github/stars/s-sahoo/duo?style=social)](https://github.com/s-sahoo/duo)
+- [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f46ddea413df86832418c5e04e59644f-Abstract-Conference.html)] Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms [[code](https://github.com/yuchen-zhu-zyc/DiscreteFastSolver)] [![GitHub stars](https://img.shields.io/github/stars/yuchen-zhu-zyc/DiscreteFastSolver?style=social)](https://github.com/yuchen-zhu-zyc/DiscreteFastSolver)
+- [[arXiv](https://arxiv.org/abs/2508.02193)] Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference
 
 ### 2024
 
@@ -165,6 +201,7 @@ Published papers are listed by venue year; preprints by first release year.
 - [[NeurIPS](https://papers.neurips.cc/paper_files/paper/2024/hash/a422a2f016c14406a01ddba731c0969a-Abstract-Conference.html)] Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_DistriFusion_Distributed_Parallel_Inference_for_High-Resolution_Diffusion_Models_CVPR_2024_paper.pdf)] DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models
 - [[ECCV](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7923_ECCV_2024_paper.php)] MobileDiffusion: Instant Text-to-Image Generation on Mobile Devices
+- [[NeurIPS](https://arxiv.org/abs/2406.07524)] Simple and Effective Masked Diffusion Language Models [[code](https://github.com/kuleshov-group/mdlm)] [![GitHub stars](https://img.shields.io/github/stars/kuleshov-group/mdlm?style=social)](https://github.com/kuleshov-group/mdlm)
 
 ### 2023
 
@@ -190,6 +227,7 @@ Published papers are listed by venue year; preprints by first release year.
 - [[ICCV](https://openaccess.thecvf.com/content/ICCV2023/html/Han_SVDiff_Compact_Parameter_Space_for_Diffusion_Fine-Tuning_ICCV_2023_paper.html)] SVDiff: Compact Parameter Space for Diffusion Fine-Tuning
 - [[ICLR](https://arxiv.org/abs/2210.02747)] Flow Matching for Generative Modeling
 - [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/41bcc9d3bddd9c90e1f44b29e26d97ff-Abstract-Conference.html)] SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds
+- [[EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.660/)] DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models [[code](https://github.com/Shark-NLP/DiffuSeq)] [![GitHub stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=social)](https://github.com/Shark-NLP/DiffuSeq)
 
 ### 2022
 
@@ -211,6 +249,9 @@ Published papers are listed by venue year; preprints by first release year.
 - [SANA](https://github.com/NVlabs/Sana): Efficient image/video model training and inference.
 - [rCM](https://github.com/NVlabs/rcm): Continuous-time consistency distillation for video models.
 - [TurboDiffusion](https://github.com/thu-ml/TurboDiffusion): Combined attention acceleration, distillation, and low-precision inference.
+- [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM): KV caching, parallel decoding, and efficient block diffusion for language and multimodal models.
+- [DFlash](https://github.com/z-lab/dflash): Block diffusion drafting for speculative decoding.
+- [Quant-dLLM](https://github.com/ZTA2785/Quant-dLLM): Extreme low-bit post-training quantization for diffusion language models.
 
 ## Related Repositories
 
@@ -220,11 +261,12 @@ Published papers are listed by venue year; preprints by first release year.
 
 ## Contributing
 
-Please open a pull request with the paper title, venue, year, paper link, and official code when available. We collect relevant publications at leading conferences and journals, as well as recent preprints with early community interest or adoption. For preprints, include a dated source documenting that interest, such as a Hugging Face Daily Papers feature, substantive community discussion, or shared models and integrations. Use the paper's original title without adding acronym suffixes. Keep one entry per paper and update it when the published version becomes available.
+Please open a pull request with the paper title, venue, year, paper link, and official code when available. Our scope includes diffusion and flow matching for images, videos, world models, and language, including diffusion-based speculative decoding. We collect relevant publications at leading conferences and journals, as well as recent preprints with early community interest or adoption. For preprints, include a dated source documenting that interest, such as a Hugging Face Daily Papers feature, substantive community discussion, or shared models and integrations. Use the paper's original title without adding acronym suffixes. Keep one entry per paper and update it when the published version becomes available.
 
 <details>
 <summary>Preprint and other inclusion references</summary>
 
+- [Seed Diffusion](https://arxiv.org/abs/2508.02193): Released on August 4, 2025; release-week Hugging Face discussion on August 6 includes author responses about comparable inference settings and community requests for integration. [Evidence](https://huggingface.co/papers/2508.02193)
 - [Z-Image](https://arxiv.org/abs/2511.22699): Hugging Face Daily Papers #1 on December 1, 2025, four days after release; the paper page also links community models and Spaces. [Evidence](https://huggingface.co/papers/2511.22699)
 - [Vidu S1](https://arxiv.org/abs/2607.03118): Hugging Face Daily Papers #1 on July 10, 2026, one week after release. [Evidence](https://huggingface.co/papers/date/2026-07-10)
 - [Asymmetric Flow Models](https://arxiv.org/abs/2605.12964): Submitted to Hugging Face Daily Papers on May 14, 2026, with release-day models and subsequent community model conversions. [Paper and community models](https://huggingface.co/papers/2605.12964)
