@@ -29,7 +29,12 @@ Published papers are listed by venue year; preprints by first release year.
 
 ### 2026
 
-- [[arXiv](https://arxiv.org/abs/2607.01642)] Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling (MrFlow) [[code](https://github.com/Xingyu-Zheng/MrFlow)] [![GitHub stars](https://img.shields.io/github/stars/Xingyu-Zheng/MrFlow?style=social)](https://github.com/Xingyu-Zheng/MrFlow)
+- [[arXiv](https://arxiv.org/abs/2607.03118)] Vidu S1: A Real-Time Interactive Video Generation Model [[project](https://github.com/shengshu-ai/Vidu-S)] [![GitHub stars](https://img.shields.io/github/stars/shengshu-ai/Vidu-S?style=social)](https://github.com/shengshu-ai/Vidu-S)
+- [[arXiv](https://arxiv.org/abs/2605.12964)] Asymmetric Flow Models [[code](https://github.com/Lakonik/LakonLab)] [![GitHub stars](https://img.shields.io/github/stars/Lakonik/LakonLab?style=social)](https://github.com/Lakonik/LakonLab)
+- [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f593c9c251d4d7cf14d4ab9861dfb7eb-Abstract-Conference.html)] pi-Flow: Policy-Based Few-Step Generation via Imitation Distillation [[code](https://github.com/Lakonik/LakonLab)] [![GitHub stars](https://img.shields.io/github/stars/Lakonik/LakonLab?style=social)](https://github.com/Lakonik/LakonLab)
+- [[ICLR](https://arxiv.org/abs/2512.05150)] TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows [[code](https://github.com/inclusionAI/TwinFlow)] [![GitHub stars](https://img.shields.io/github/stars/inclusionAI/TwinFlow?style=social)](https://github.com/inclusionAI/TwinFlow)
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Zhuang_FlashVSR_Towards_Real-time_Diffusion-Based_Streaming_Video_Super_Resolution_CVPR_2026_paper.html)] FlashVSR: Towards Real-time Diffusion-Based Streaming Video Super Resolution [[code](https://github.com/OpenImagingLab/FlashVSR)] [![GitHub stars](https://img.shields.io/github/stars/OpenImagingLab/FlashVSR?style=social)](https://github.com/OpenImagingLab/FlashVSR)
+- [[arXiv](https://arxiv.org/abs/2607.01642)] Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling [[code](https://github.com/Xingyu-Zheng/MrFlow)] [![GitHub stars](https://img.shields.io/github/stars/Xingyu-Zheng/MrFlow?style=social)](https://github.com/Xingyu-Zheng/MrFlow)
 - [[CVPR](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VDOT_Efficient_Unified_Video_Creation_via_Optimal_Transport_Distillation_CVPR_2026_paper.html)] VDOT: Efficient Unified Video Creation via Optimal Transport Distillation [[code](https://github.com/hhhh1138/VDOT)] [![GitHub stars](https://img.shields.io/github/stars/hhhh1138/VDOT?style=social)](https://github.com/hhhh1138/VDOT)
 - [[ECCV](https://arxiv.org/abs/2605.13724)] AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4a8244cd160c6862ff144e14322c32bb-Abstract-Conference.html)] Joint Distillation for Fast Likelihood Evaluation and Sampling in Flow-based Models
@@ -65,6 +70,10 @@ Published papers are listed by venue year; preprints by first release year.
 
 ### 2025
 
+- [[arXiv](https://arxiv.org/abs/2511.22699)] Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer [[code](https://github.com/Tongyi-MAI/Z-Image)] [![GitHub stars](https://img.shields.io/github/stars/Tongyi-MAI/Z-Image?style=social)](https://github.com/Tongyi-MAI/Z-Image)
+- [[arXiv](https://arxiv.org/abs/2511.10629)] One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models [[code](https://github.com/vaskers5/LUA)] [![GitHub stars](https://img.shields.io/github/stars/vaskers5/LUA?style=social)](https://github.com/vaskers5/LUA)
+- [[ICML](https://proceedings.mlr.press/v267/zhang25ch.html)] SpargeAttention: Accurate and Training-free Sparse Attention Accelerating Any Model Inference [[code](https://github.com/thu-ml/SpargeAttn)] [![GitHub stars](https://img.shields.io/github/stars/thu-ml/SpargeAttn?style=social)](https://github.com/thu-ml/SpargeAttn)
+- [[ICCV](https://openaccess.thecvf.com/content/ICCV2025/papers/Kodaira_StreamDiffusion_A_Pipeline-level_Solution_for_Real-Time_Interactive_Generation_ICCV_2025_paper.pdf)] StreamDiffusion: A Pipeline-level Solution for Real-Time Interactive Generation [[code](https://github.com/cumulo-autumn/StreamDiffusion)] [![GitHub stars](https://img.shields.io/github/stars/cumulo-autumn/StreamDiffusion?style=social)](https://github.com/cumulo-autumn/StreamDiffusion)
 - [[ICLR](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f30307ac840b88f86f4ab5761b2d6595-Abstract-Conference.html)] Faster Diffusion Sampling with Randomized Midpoints: Sequential and Parallel
 - [[Machine Intelligence Research](https://link.springer.com/article/10.1007/s11633-025-1562-4)] DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models [[code](https://github.com/LuChengTHU/dpm-solver)] [![GitHub stars](https://img.shields.io/github/stars/LuChengTHU/dpm-solver?style=social)](https://github.com/LuChengTHU/dpm-solver)
 - [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/33722)] Flash Diffusion: Accelerating Any Conditional Diffusion Model for Few Steps Image Generation [[code](https://github.com/gojasper/flash-diffusion)] [![GitHub stars](https://img.shields.io/github/stars/gojasper/flash-diffusion?style=social)](https://github.com/gojasper/flash-diffusion)
@@ -159,6 +168,7 @@ Published papers are listed by venue year; preprints by first release year.
 
 ### 2023
 
+- [[arXiv](https://arxiv.org/abs/2311.05556)] LCM-LoRA: A Universal Stable-Diffusion Acceleration Module [[code](https://github.com/luosiallen/latent-consistency-model)] [![GitHub stars](https://img.shields.io/github/stars/luosiallen/latent-consistency-model?style=social)](https://github.com/luosiallen/latent-consistency-model)
 - [[ICLR](https://arxiv.org/abs/2204.13902)] Fast Sampling of Diffusion Models with Exponential Integrator [[code](https://github.com/qsh-zh/deis)] [![GitHub stars](https://img.shields.io/github/stars/qsh-zh/deis?style=social)](https://github.com/qsh-zh/deis)
 - [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/ada8de994b46571bdcd7eeff2d3f9cff-Abstract-Conference.html)] DPM-Solver-v3: Improved Diffusion ODE Solver with Empirical Model Statistics [[code](https://github.com/thu-ml/DPM-Solver-v3)] [![GitHub stars](https://img.shields.io/github/stars/thu-ml/DPM-Solver-v3?style=social)](https://github.com/thu-ml/DPM-Solver-v3)
 - [[NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d6f764aae383d9ff28a0f89f71defbd9-Abstract-Conference.html)] SEEDS: Exponential SDE Solvers for Fast High-Quality Sampling from Diffusion Models
@@ -210,11 +220,16 @@ Published papers are listed by venue year; preprints by first release year.
 
 ## Contributing
 
-Please open a pull request with the paper title, venue, year, paper link, and official code when available. We collect relevant publications at leading conferences and journals, as well as recent preprints with early community interest or adoption. For preprints, include a dated source documenting that interest. Keep one entry per paper and update it when the published version becomes available.
+Please open a pull request with the paper title, venue, year, paper link, and official code when available. We collect relevant publications at leading conferences and journals, as well as recent preprints with early community interest or adoption. For preprints, include a dated source documenting that interest, such as a Hugging Face Daily Papers feature, substantive community discussion, or shared models and integrations. Use the paper's original title without adding acronym suffixes. Keep one entry per paper and update it when the published version becomes available.
 
 <details>
 <summary>Preprint and other inclusion references</summary>
 
+- [Z-Image](https://arxiv.org/abs/2511.22699): Hugging Face Daily Papers #1 on December 1, 2025, four days after release; the paper page also links community models and Spaces. [Evidence](https://huggingface.co/papers/2511.22699)
+- [Vidu S1](https://arxiv.org/abs/2607.03118): Hugging Face Daily Papers #1 on July 10, 2026, one week after release. [Evidence](https://huggingface.co/papers/date/2026-07-10)
+- [Asymmetric Flow Models](https://arxiv.org/abs/2605.12964): Submitted to Hugging Face Daily Papers on May 14, 2026, with release-day models and subsequent community model conversions. [Paper and community models](https://huggingface.co/papers/2605.12964)
+- [One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models](https://arxiv.org/abs/2511.10629): Hugging Face Daily Papers #1 on November 14, 2025, the day after release. [Evidence](https://huggingface.co/papers/2511.10629)
+- [LCM-LoRA](https://arxiv.org/abs/2311.05556): Hugging Face Daily Papers #1 on November 10, 2023, the day after release, with Diffusers integration documented at launch. [Daily Papers](https://huggingface.co/papers/2311.05556) [Integration](https://huggingface.co/blog/lcm_lora)
 - [MrFlow](https://arxiv.org/abs/2607.01642): Released on July 2, 2026 and submitted to Hugging Face Daily Papers on July 3; the official repository records release-month Trending Papers coverage and community workflows. [Daily Papers](https://huggingface.co/papers/2607.01642) [Release history and community](https://github.com/Xingyu-Zheng/MrFlow#-news)
 - [Latent Consistency Models](https://arxiv.org/abs/2310.04378): LCM ecosystem integration documented by Hugging Face in November 2023. [Evidence](https://huggingface.co/blog/lcm_lora)
 - [Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation](https://arxiv.org/abs/2403.12015): Hugging Face Daily Papers #1; submitted the day after release. [Evidence](https://huggingface.co/papers/2403.12015)
