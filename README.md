@@ -7,7 +7,7 @@ A collection of papers and code on efficient diffusion and flow matching models 
 - [Benchmarks](#benchmarks) · [Survey Papers](#survey-papers)
 - [Papers by Year](#papers-by-year)<br>
   [2026](#2026) · [2025](#2025) · [2024](#2024) · [2023](#2023) · [2022](#2022)
-- [Implementations](#implementations) · [Related Repositories](#related-repositories) · [Contributing](#contributing)
+- [Implementations](#implementations) · [Related Repositories](#related-repositories) · [Contributing](#contributing) · [Star History](#star-history)
 
 ## Benchmarks
 
@@ -309,3 +309,13 @@ Please open a pull request with the paper title, venue, year, paper link, and of
 - [DPM-Solver++](https://link.springer.com/article/10.1007/s11633-025-1562-4): Author-maintained history records Apple/Hugging Face Swift integration in December 2022; first preprint 2022. [Evidence](https://github.com/LuChengTHU/dpm-solver#news)
 
 </details>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=AI-Efficiency%2FAwesome-Efficient-Diffusion&amp;type=date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AI-Efficiency/Awesome-Efficient-Diffusion&amp;type=date&amp;theme=dark&amp;legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AI-Efficiency/Awesome-Efficient-Diffusion&amp;type=date&amp;legend=top-left" />
+    <img alt="GitHub star growth of Awesome Efficient Diffusion over time" src="https://api.star-history.com/chart?repos=AI-Efficiency/Awesome-Efficient-Diffusion&amp;type=date&amp;legend=top-left" width="800" />
+  </picture>
+</a>
