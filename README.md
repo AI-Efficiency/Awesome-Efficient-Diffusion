@@ -1,6 +1,6 @@
 # Awesome Efficient Diffusion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A collection of papers and code on efficient diffusion and flow matching models for image, video, and 3D generation, world models, and diffusion language models. Topics include fast sampling, distillation, feature and KV caching, parallel decoding, efficient attention, quantization, pruning, model compression, training, and deployment. Contributions are welcome.
+A collection of papers and code on efficient diffusion and flow matching models for image, video, and 3D generation, world models, and diffusion language models. Topics include fast sampling, distillation, feature and KV caching, parallel decoding, efficient attention, quantization, pruning, model compression, training, and deployment. Contributions are welcome. The project was initiated by [Haotong Qin](https://github.com/htqin). Thanks to all [contributors](https://github.com/AI-Efficiency/Awesome-Efficient-Diffusion/graphs/contributors) for helping grow and maintain this collection.
 
 ## Quick Navigation
 
