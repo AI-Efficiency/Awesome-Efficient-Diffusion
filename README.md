@@ -29,6 +29,8 @@ Published papers are listed by venue year; preprints by first release year.
 
 ### 2026
 
+- [[SCIS](https://link.springer.com/article/10.1007/s11432-025-4920-3)] Motion-aware generative frame interpolation [[code](https://github.com/MCG-NJU/MoG-VFI)] [![GitHub stars](https://img.shields.io/github/stars/MCG-NJU/MoG-VFI?style=social)](https://github.com/MCG-NJU/MoG-VFI)
+
 - [[NeurIPS](https://arxiv.org/abs/2609.04031)] DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation [[code](https://github.com/robbyant-research/DSAQuant)] [![GitHub stars](https://img.shields.io/github/stars/robbyant-research/DSAQuant?style=social)](https://github.com/robbyant-research/DSAQuant)
 - [[NeurIPS](https://arxiv.org/abs/2609.38140)] Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE
 - [[NeurIPS](https://arxiv.org/abs/2609.26796)] Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs [[code](https://github.com/VILA-Lab/Flash-dLLM)] [![GitHub stars](https://img.shields.io/github/stars/VILA-Lab/Flash-dLLM?style=social)](https://github.com/VILA-Lab/Flash-dLLM)
